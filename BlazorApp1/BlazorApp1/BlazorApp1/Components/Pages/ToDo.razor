@@ -37,24 +37,25 @@
 
     private async void AddToDo(MouseEventArgs e)
     {
-        if (title != "")
+        if (!string.IsNullOrWhiteSpace(title))
         {
             var item = new ToDoItem(title);
             todos.Add(item);
-            AddingCorrectly(item.Title);
+            await ShowMessageAsync($"Added {item.Title} to ToDoList");
             title = "";
         }
         else
         {
-            this.message = "You need to write Title above";
-            await Task.Delay(1000);
-            this.message = string.Empty;
+            await ShowMessageAsync("You need to write Title above");
         }
     }
 
-    async Task AddingCorrectly(string title){
-        this.message = $"Added {title} to ToDoList";
+    private async Task ShowMessageAsync(string messageToShow)
+    {
+        message = messageToShow;
+        StateHasChanged();
         await Task.Delay(2000);
-        this.message = string.Empty;
+        message = string.Empty;
+        StateHasChanged();
     }
 }
