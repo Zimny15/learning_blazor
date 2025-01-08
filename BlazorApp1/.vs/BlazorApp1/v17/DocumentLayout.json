@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zimak\\source\\repos\\learning_blazor\\BlazorApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDB1B59B-8DC5-4CCE-9E57-885381FA0EB9}|BlazorApp1\\BlazorApp1\\BlazorApp1.csproj|c:\\users\\zimak\\source\\repos\\learning_blazor\\blazorapp1\\blazorapp1\\blazorapp1\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDB1B59B-8DC5-4CCE-9E57-885381FA0EB9}|BlazorApp1\\BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\blazorapp1\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDB1B59B-8DC5-4CCE-9E57-885381FA0EB9}|BlazorApp1\\BlazorApp1\\BlazorApp1.csproj|c:\\users\\zimak\\source\\repos\\learning_blazor\\blazorapp1\\blazorapp1\\blazorapp1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDB1B59B-8DC5-4CCE-9E57-885381FA0EB9}|BlazorApp1\\BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\blazorapp1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDB1B59B-8DC5-4CCE-9E57-885381FA0EB9}|BlazorApp1\\BlazorApp1\\BlazorApp1.csproj|c:\\users\\zimak\\source\\repos\\learning_blazor\\blazorapp1\\blazorapp1\\blazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDB1B59B-8DC5-4CCE-9E57-885381FA0EB9}|BlazorApp1\\BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\blazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A0B4CF-94C4-4397-9F75-9EEE541124A0}|BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj|c:\\users\\zimak\\source\\repos\\learning_blazor\\blazorapp1\\blazorapp1\\blazorapp1.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96A0B4CF-94C4-4397-9F75-9EEE541124A0}|BlazorApp1\\BlazorApp1.Client\\BlazorApp1.Client.csproj|solutionrelative:blazorapp1\\blazorapp1.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDB1B59B-8DC5-4CCE-9E57-885381FA0EB9}|BlazorApp1\\BlazorApp1\\BlazorApp1.csproj|c:\\users\\zimak\\source\\repos\\learning_blazor\\blazorapp1\\blazorapp1\\blazorapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDB1B59B-8DC5-4CCE-9E57-885381FA0EB9}|BlazorApp1\\BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\blazorapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\zimak\\source\\repos\\learning_blazor\\BlazorApp1\\BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\zimak\\source\\repos\\learning_blazor\\BlazorApp1\\BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T16:29:16.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToDo.razor",
+              "DocumentMoniker": "C:\\Users\\zimak\\source\\repos\\learning_blazor\\BlazorApp1\\BlazorApp1\\BlazorApp1\\Components\\Pages\\ToDo.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\BlazorApp1\\Components\\Pages\\ToDo.razor",
+              "ToolTip": "C:\\Users\\zimak\\source\\repos\\learning_blazor\\BlazorApp1\\BlazorApp1\\BlazorApp1\\Components\\Pages\\ToDo.razor",
+              "RelativeToolTip": "BlazorApp1\\BlazorApp1\\Components\\Pages\\ToDo.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T16:28:42.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\zimak\\source\\repos\\learning_blazor\\BlazorApp1\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\BlazorApp1\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\zimak\\source\\repos\\learning_blazor\\BlazorApp1\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorApp1\\BlazorApp1\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T16:11:41.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\zimak\\source\\repos\\learning_blazor\\BlazorApp1\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\zimak\\source\\repos\\learning_blazor\\BlazorApp1\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T16:11:36.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\zimak\\source\\repos\\learning_blazor\\BlazorApp1\\BlazorApp1\\BlazorApp1.Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\BlazorApp1.Client\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\zimak\\source\\repos\\learning_blazor\\BlazorApp1\\BlazorApp1\\BlazorApp1.Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorApp1\\BlazorApp1.Client\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T16:05:11.402Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

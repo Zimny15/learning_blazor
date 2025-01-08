@@ -1,0 +1,32 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+
+<div>
+    <input @bind="text" @bind:event="oninput" @bind:after="SearchMethod" />
+    <button @onclick="OnClick">Wyczyść</button>
+    <p>@text</p>
+    <p>@searchResult</p>
+
+</div>
+
+@code {
+    string text = "";
+    string searchResult = "";
+    private void OnClick(MouseEventArgs e)
+    {
+        this.text = string.Empty;
+    }
+
+    async Task SearchMethod(){
+        searchResult = "Searching";
+        await Task.Delay(2000);
+        searchResult = $"Found {Random.Shared.Next()} results!";
+    }
+}

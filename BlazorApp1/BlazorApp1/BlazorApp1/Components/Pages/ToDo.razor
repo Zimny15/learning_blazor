@@ -1,0 +1,60 @@
+﻿@page "/todo"
+@rendermode InteractiveServer
+
+
+<h3>ToDo (@todos.Count(t => !t.IsDone))</h3>
+
+<ul>
+    @foreach (var todo in todos){
+        <li>
+            <input type="checkbox" @bind="todo.IsDone"/>
+            <input @bind="todo.Title"/>
+        </li>
+    }
+</ul>
+
+<input @bind="title"/>
+<button @onclick="AddToDo">Add to do to list!</button>
+<p>@message</p>
+
+@code {
+
+    List<ToDoItem> todos = new List<ToDoItem>();
+
+    string title = string.Empty;
+    string message = string.Empty;
+
+    public class ToDoItem{
+
+        public ToDoItem(string title)
+        {
+            Title = title;
+        }
+
+        public string? Title { get; set; }
+        public bool IsDone { get; set; }
+    }
+
+    private async void AddToDo(MouseEventArgs e)
+    {
+        if (title != "")
+        {
+            var item = new ToDoItem(title);
+            todos.Add(item);
+            AddingCorrectly(item.Title);
+            title = "";
+        }
+        else
+        {
+            this.message = "You need to write Title above";
+            await Task.Delay(1000);
+            this.message = string.Empty;
+        }
+    }
+
+    async Task AddingCorrectly(string title){
+        this.message = $"Added {title} to ToDoList";
+        await Task.Delay(2000);
+        this.message = string.Empty;
+    }
+}
